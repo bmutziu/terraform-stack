@@ -5,7 +5,7 @@ data "terraform_remote_state" "vpc" {
 
   config = {
     bucket = "bmutziu-jenkins-s3storage"
-    key = "network.terraform.tfstate"
+    key = "network/terraform.tfstate"
     region = var.config.region.location
   }
 }
