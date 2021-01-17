@@ -1,0 +1,14 @@
+aws/**/.*/
+aws/**/*.plan
+aws/**/*.tf.json
+aws/**/*.tfvars.json
+aws/**/*.tfstate
+aws/**/*.tfstate.backup
+aws/**/.cache/
+aws/**/*.pyc
+aws/**/.terraform
+aws/**/build/
+aws/**/dist/
+aws/**/buildrunner.results
+aws/**/.idea
+aws/**/.env
